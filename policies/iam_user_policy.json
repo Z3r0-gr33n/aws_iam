@@ -1,0 +1,42 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "iamuser_policy",
+        "Action": [
+          "iam:AttachGroupPolicy",
+          "iam:AttachRolePolicy",
+          "iam:AttachUserPolicy",
+          "iam:CreateInstanceProfile",
+          "iam:CreatePolicy",
+          "iam:CreatePolicyVersion",
+          "iam:CreateRole",
+          "iam:CreateUser",
+          "iam:DeletePolicy",
+          "iam:DeletePolicyVersion",
+          "iam:DeleteRole",
+          "iam:DeleteRolePermissionsBoundary",
+          "iam:DeleteRolePolicy",
+          "iam:DeleteUser",
+          "iam:DeleteUserPermissionsBoundary",
+          "iam:DeleteUserPolicy",
+          "iam:DetachGroupPolicy",
+          "iam:DetachRolePolicy",
+          "iam:DetachUserPolicy",
+          "iam:GetPolicy",
+          "iam:GetPolicyVersion",
+          "iam:GetRole",
+          "iam:GetRolePolicy",
+          "iam:GetUser",
+          "iam:GetUserPolicy",
+          "iam:ListGroupPolicies",
+          "iam:UpdateGroup",
+          "iam:UpdateRole",
+          "iam:UpdateRoleDescription",
+          "iam:UpdateUser"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      }
+    ]
+  }
